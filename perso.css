@@ -1,0 +1,48 @@
+body {
+    background-color:gray;
+    color: white;
+    width:1250px;
+    font-family: "Comic Sans MS", "Arial";
+}
+
+#entete,#hobby,#formation, #emplois, #langues {
+    width:1200px;
+    background-color:gray;
+    text-align:left;
+    margin:auto;
+    font-size:18px;
+}
+#portrait {
+    float:left;
+    height:200px;
+    margin:10px;
+}
+.center {
+    text-align: center;
+}
+table{
+    margin: 20px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-family: Tahoma, sans-serif;
+    font-size: 18px;
+}
+td{
+
+    border: 1px solid black;
+    text-align: center;
+    padding:5px 10px;
+
+}
+th{
+    text-align: center;
+    border-bottom: 5px double black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding:5px 10px;
+}
+hr {
+    margin: 50px;
+    height:4px;
+    background-color: lightgray;
+}
